@@ -41,7 +41,7 @@ const CompanyOverview = () => {
             {companyData && (
                 <div>
                     <h2>{companyData.name}</h2>
-                    <p><strong>Symbol:</strong> {companyData.ticker}</p>
+                    <p>Symbol: {companyData.ticker}</p>
                     <p><strong>Industry:</strong> {companyData.finnhubIndustry}</p>
                     <p><strong>Market Capitalization:</strong> {companyData.marketCapitalization}</p>
                     <p><strong>Phone:</strong> {companyData.phone}</p>
